@@ -1,0 +1,278 @@
+/*SERVIZI*/
+
+html {
+    min-height: 100%;
+    height: auto;
+}
+
+.core {
+    position: inherit;
+}
+
+.reportsLink {
+	display: block;
+	margin: auto;
+	margin-top: 5em;
+}
+
+.reportsLink a {
+	background-color: white;
+    border: 1px solid rgb(64, 65, 74);
+    border: 1px solid rgba(64, 65, 74, 0.5);
+    border-radius: 16px;
+    color: rgb(39, 39, 39);
+    cursor: pointer;
+	display: inline-block;
+    font-family: 'Exo', sans-serif;
+    font-size: 1em;
+    padding: 0.5em 1.5em;
+    text-decoration: none;
+    -webkit-transition: 0.6s;
+    -moz-transition: 0.6s;
+    -o-transition: 0.6s;
+    transition: 0.6s;
+	width: 100%;
+}
+
+.reportsLink a:hover,
+.reportsLink a:focus {
+	background-image: linear-gradient(140deg, #ff8a00, #da1b60);
+    color: white;
+}
+
+/*LINK*/
+
+#creaReport, #viewReport {
+	display: inline-block;
+}
+
+#creaReport {
+	margin-right: 3.5%;
+}
+
+#viewReport {
+	margin-left: 3.5%;
+}
+
+/*CREA SEGNALAZIONE*/
+
+.reportDiv p {
+	color: red;
+	font-size: 0.8em;
+	margin: auto;
+	margin-top: 1em;
+	width: 90%;
+}
+
+.loadingIcon {
+    height: 30px;
+    margin: 1em auto;
+    width: 30px;
+}
+
+.selectCountry {
+	margin: auto;
+	margin-top: 0.3em;
+    max-height: 100px;
+	overflow: auto;
+    padding: 0.6em;
+	position: static;
+	text-align: center;
+	transition: 0.6s;
+	width: 80%;
+}
+
+.selectCountry p,
+.reportDiv .selectCountry p {
+	background-image: linear-gradient(to right,#ff8a00,#da1b60);
+	border-radius: 16px;
+	color: white;
+	cursor: pointer;
+	font-size: 1em;
+	margin: 0.5em auto;
+    padding:0.5em 0;
+	transition: 0.6s;
+}
+
+.login_required {
+	margin: auto;
+	display: block;
+	transition: 0.6s;
+}
+
+.login_required a:hover,
+.login_required a:focus,
+#how_to_post:hover,
+#how_to_post:focus {
+	background-image: linear-gradient(140deg, #ff8a00, #da1b60);
+	color: white;
+	border: 1px solid rgba(64, 65, 74, 0.5);
+	border-radius: 16px;
+	margin: auto;
+	padding: 0.5em;
+	text-decoration: none;
+	-webkit-transition: 0.6s;
+	-moz-transition: 0.6s;
+	-o-transition: 0.6s;
+	transition: 0.6s;
+}
+
+/*HOW TO*/
+
+.general .howto {
+	display: block;
+	margin: auto;
+	width: 60%;
+}
+
+.general .howto h2 {
+	font-size: 1.6em;
+	margin: auto;
+	margin-top: 2em;
+	margin-bottom: 1em;
+}
+
+.general .howto h3 {
+	font-size: 1.1em;
+	margin: auto;
+	margin-bottom: 2em;
+}
+
+.general .howto ul {
+	margin-top: 2em;
+}
+
+.general .howto ul li p {
+	margin: 0;
+	padding: 0;
+	text-align: left;
+}
+
+/*VISUALIZZA SEGNALAZIONE*/
+
+.viewReport {
+    display: block;
+	margin: auto;
+}
+
+.viewReport h2 {
+	font-size: 1.6em;
+    margin-bottom: 0.6em;
+}
+
+.viewReport h3 {
+	font-size: 1.2em;
+	margin-top: 1em;
+	margin-bottom: 2em;
+}
+
+.viewReport h4 {
+	font-size: 1em;
+	margin-top: 0;
+}
+
+.viewReport p {
+    display: block;
+	font-size: 1.1em;
+	margin: auto;
+	padding: 0.5em;
+	text-align: center;
+	width: 60%;
+}
+
+.viewReport a {
+    border-radius: 16px;
+    transition: 0.5s;
+}
+
+.viewReport a:hover,
+.viewReport a:focus {
+    background-image: linear-gradient(140deg, #ff8a00, #da1b60);
+	color: white;
+	cursor: pointer;
+	padding: 0.5em;
+}
+
+.viewReport table {
+	border: 1px solid #fff;
+	border-collapse: collapse;
+	margin: auto;
+	width: 70%
+}
+
+.viewReport table caption {
+	margin: 0.5em;
+}
+
+.viewReport thead tr,
+.viewReport tfoot tr {
+	background-image: linear-gradient(140deg, #ff8a00, #da1b60);
+	color: white;
+}
+
+.viewReport thead tr th,
+.viewReport tfoot tr th {
+	padding: 1em;
+}
+
+.viewReport tbody {
+	background-color: #100e17;
+	color: white;
+}
+
+.viewReport tbody tr {
+	border: 1px solid #fff;
+	-webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+	transition: 0.5s;
+}
+
+.viewReport tbody tr:hover,
+.viewReport tbody tr:focus {
+	background-color: #fff;
+	color: #100e17;
+	cursor: pointer;
+}
+
+.viewReport tbody tr td {
+	padding: 1em;
+}
+
+/*ELENCO PAGINE TABELLA SEGNALAZIONE*/
+.viewReport .pageNumber {
+    -webkit-display: inline-flex;
+    display: inline-flex;
+    margin: 1em auto;
+}
+
+.viewReport .pageNumber a,
+.viewReport .pageNumber span {
+    background-color: #100e17;
+    border-radius: 0;
+    border-right: 1px solid white;
+    box-sizing: border-box;
+    color: white;
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-align: center;
+    transition: 0.6s;
+}
+
+.viewReport .pageNumber a:hover {
+    padding: 0.5em 1em;
+}
+
+.viewReport .pageNumber .activePage {
+    background-image: linear-gradient(140deg, #ff8a00, #da1b60);
+	color: white;
+}
+
+.viewReport .pageNumber .activePage:hover {
+    color: white;
+}
+
+#searchTable {
+    margin-bottom: 3em;
+}
+}

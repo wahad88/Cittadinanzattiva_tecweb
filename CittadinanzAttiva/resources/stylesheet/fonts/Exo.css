@@ -1,0 +1,9 @@
+/*GOOGLE FONTS - EXO - https://fonts.googleapis.com/css?family=Exo*/
+
+@font-face {
+  font-family: 'Exo';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400;
+  src: local('Exo Regular'), local('Exo-Regular'), url('woff/exo.woff') format('woff');
+}

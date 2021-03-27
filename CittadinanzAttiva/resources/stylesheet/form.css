@@ -1,0 +1,368 @@
+/*MODIFICA IL COLORE DEL PLACEHOLDER*/
+
+::placeholder { /*CHROME, FIREFOX, OPERA, SAFARI*/ 
+    color: rgb(173, 173, 173);
+    opacity: 1;
+	text-align: center;
+}
+
+:-ms-input-placeholder { /*INTERNET EXPLORER*/
+    color: rgb(173, 173, 173);
+}
+
+::-ms-input-placeholder { /*MICROSOFT EDGE*/
+    color: rgb(173, 173, 173);
+}
+
+/*ASPETTO GENERALE DELLE FORM*/
+
+.contenuto-modulo {
+    background-color: #fefefe;
+    border: 1px solid #888;
+    border-radius: 16px;
+    height: auto;
+    margin: auto;
+	margin-bottom: 2em;
+    text-align: center;
+    transition: 0.6s;
+    width: 350px;
+}
+
+.contenuto-modulo h3 {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+.container h3 {
+	font-size: 1.3em;
+	margin: 0;
+	margin-top: 0.8em;
+}
+
+.container a {
+    font-size: 0.9em;
+    margin: auto;
+    margin-bottom: 1.5em;
+    display: block;
+}
+
+.container fieldset {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+.general .container h3 {
+    margin: auto;
+    margin-top: 1em;
+}
+
+.container legend {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin: auto;
+	padding-top: 1em;
+}
+
+.container label {
+    display: block;
+    margin: 1em;
+}
+
+.container select {
+	padding: 1em;
+}
+
+.container textarea {
+    border: 1px solid rgb(152, 152, 152);
+	border-radius: 16px;
+	height: 150px;
+	padding: 1em;
+	width: 80%;
+}
+
+.container button {
+    background-color: #4CAF50;
+    border: none;
+	border-radius: 8px;
+    box-sizing: border-box;
+    color: white;
+    cursor: pointer;
+    font-size: 0.9em;
+    font-family: 'Exo', sans-serif;
+    margin: 1em;
+    padding: 1em;
+    width: 40%;
+}
+
+.container input {
+    border: 1px solid rgb(152, 152, 152);
+	border-radius: 16px;
+    box-sizing: border-box;
+    color: rgb(64, 65, 74);
+    display: block;
+    margin: auto;
+    padding: 1em;
+    text-align: center;
+    width: 80%;
+}
+
+.container  input[type=date]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    display: none;
+}
+
+.container input[type=date]::-webkit-calendar-picker-indicator {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    display: none;
+}
+
+.container input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+.container input[type="submit"]:hover,
+.container input[type="submit"]:focus {
+    background-color: rgb(76, 175, 80); /*FALLBACK*/
+    background-color: rgba(76, 175, 80, 0.8);
+}
+
+/*PULSANTE PER RESETTARE LA FORM*/
+
+.container .cancelbtn {
+    background-color: #f44336;
+    box-sizing: border-box;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 0.9em;
+    font-family: 'Exo', sans-serif;
+    margin-top: -1em;
+    width: auto;
+    margin: 0 0 0 2em;
+}
+
+.container .cancelbtn:hover,
+.container .cancelbtn:focus {
+    background-color: rgb(244, 67, 54); /*FALLBACK*/
+    background-color: rgba(244, 67, 54, 0.8);
+}
+
+.cancelbtn a{
+    font-size: 0.9em;
+    text-decoration: none;
+}
+
+/*CAMBIA IL COLORE DELLA CASELLA DELL'INPUT SE IL CAMPO E' STATO RIEMPITO CORRETTAMENTE*/
+
+.container .invalid,
+.changeForm .invalid{
+    background-color: rgb(255,0,0); /*FALLBACK*/
+    background-color: rgba(255, 0, 0, 0.18);
+}
+
+.container .valid,
+.changeForm .valid {
+    background-color: rgb(0, 210, 0); /*FALLBACK*/
+    background-color: rgba(0, 210, 0, 0.26);
+}
+
+/*FORM DI SIGNUP*/
+
+.container .prevBtn,
+.container .nextBtn {
+    border: none;
+    box-sizing: border-box;
+    color: white;
+    cursor: pointer;
+    font-size: 1em;
+    font-family: 'Exo', sans-serif;
+    margin: auto;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	transition: 0.6s;
+    width: 40%;
+}
+
+.container .prevBtn {
+    background-color: #737373;
+    margin-right: 0.3em;
+}
+
+.container .nextBtn {
+    background-color: #4CAF50;
+    margin-left: 0.3em;
+}
+
+.container .disableButton {
+    background-color: #7f7f7f;
+    transition: 0.6s;
+}
+
+#firstNextBtn {
+	display: block;
+	margin-left: auto;
+}
+
+/*FORM PER LA MODIFICA DEI DATI*/
+.changeForm {
+    display: inline-block;
+    margin-top: 2em;
+    position: absolute;
+    right: 0;
+    transition: 0.6s;
+    width: 65%;
+}
+
+.changeForm form {
+    background-color: #fff;
+    border: 1px solid rgb(39, 39, 39, 0.5);
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    color: rgb(39, 39, 39);
+    height: 318px;
+}
+
+.changeForm form fieldset {
+    border: none;
+}
+
+.changeForm form fieldset legend {
+    font-weight: 600;
+    margin: auto;
+    padding-top: 2em;
+}
+
+#legend-caricaNews,
+#legend-messaggio {
+    padding-top: 0.5em;
+}
+
+#label-deleteNews,
+#label-deleteReport,
+#label-editReport {
+    margin-top: 1em;
+    margin-bottom : 1em;
+}
+
+#button-deleteNews,
+#button-deleteReport,
+#button-editReport {
+    margin-top: 7em;
+}
+
+#destinatario {
+    position: inherit;
+}
+
+.changeForm form fieldset label {
+    display: block;
+    margin: 0.5em auto;
+    padding: 0.5em;
+    position: absolute;
+    left: 4em;
+}
+
+.administration form fieldset label {
+    left: 0;
+    margin-top: 0;
+    margin-bottom: 0.2em;
+    position: relative;
+}
+
+.changeForm .firstLabel {
+    top: 4.5em;
+}
+
+.changeForm .secondLabel {
+    top: 162px;
+}
+
+.changeForm form fieldset input {
+    border: 1px solid rgba(39, 39, 39, 0.5);
+    border-radius: 16px ;
+    display: inline-block;
+    margin: auto;
+    padding: 0.7em;
+    position: absolute;
+    text-align: center;
+    width: 40%
+}
+
+.administration form fieldset input {
+    position: relative;
+    display: block;
+    width: 70%;
+}
+
+.changeForm form fieldset textarea {
+    border: 1px solid rgba(39, 39, 39, 0.5);
+    border-radius: 16px ;
+    display: block;
+    margin: auto;
+    padding: 0.5em 1em;
+    text-align: center;
+}
+
+.changeForm form fieldset select {
+    display: block;
+    left: 5em;
+    margin: auto;
+    top: 10em;
+    padding: 1em;
+    position: absolute;
+}
+
+.changeForm .firstInput {
+    top: 80px;
+}
+
+.changeForm .secondInput {
+    top: 170px;
+}
+
+.changeForm form fieldset button {
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 16px;
+    color: white;
+    cursor: pointer;
+    display: block;
+    font-family: 'Exo', sans-serif;
+    font-size: 1em;
+    margin: auto;
+    margin-top: 190px;
+    padding: 0.8em;
+    transition: 0.6s;
+}
+
+.administration form fieldset button {
+    margin: 0.5em auto;
+}
+
+.changeForm .disableButton {
+    background-color: #7f7f7f;
+    transition: 0.6s;
+}
+
+.changeForm .errorField {
+    left: 5.6em;
+    margin: auto;
+    position: absolute;
+    text-align: left;
+    top: 42%;
+}
+
+.changeForm .firstError {
+    top: 120px;
+}
+
+.changeForm .secondError {
+    top: 210px;
+}

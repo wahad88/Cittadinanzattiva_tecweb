@@ -1,0 +1,213 @@
+/*OPZIONI UTENTE*/
+
+.userOption {
+    background-image: linear-gradient(140deg, #ff8a00, #da1b60);
+    border-radius: 16px;
+    display: inline-block;
+    margin: auto;
+    max-width: 660px;
+    width: 100%;
+}
+
+.userOption button {
+    background-color: rgba(255 ,255, 255, 0);
+    border: none;
+    border-radius: 16px;
+    color: white;
+    font-size: 1em;
+    margin: 0 -2px;
+    padding: 16px 0;
+    transition: 0.5s;
+    width: 220px;
+}
+
+
+.userOption button:hover,
+.userOption button:focus {
+    background-color: #100e17;
+    cursor: pointer;
+}
+
+.userOption .activeButton {
+    background-color: #100e17;
+    color: white;
+}
+
+.userOptionCover {
+    display: block;
+    margin: 3em auto 0 auto;
+    height: auto;
+    max-width: 70%;
+    width: 100%;
+}
+
+/*SCHEDE DELLA PAGINA userOption.php*/
+
+.divScheda {
+    color: rgb(39, 39, 39);
+    display: inline-block;
+}
+
+.divScheda p {
+    margin: 1em auto;
+}
+
+#datiPersonali {
+    min-height: 320px;
+    position: relative;
+    width: 75%;
+}
+
+/*CLASSE PER MOSTARE IL MENU' DI SELEZION DELLE OPZIONI*/
+
+.subNav {
+    background-color: #100e17;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+    display: inline-block;
+    height: 320px;
+    left: 0;
+    margin-top: 2em;
+    position: absolute;
+    width: 35%;
+}
+
+.subNav ul {
+    margin: 1em;
+    padding: 0.5em;
+}
+
+.subNav ul li {
+    border-radius: 16px;
+    color: white;
+    list-style-type: none;
+    margin: 0.5em;
+    padding: 0.5em 0;
+}
+
+.subNav ul li:hover {
+    background-image: linear-gradient(140deg, #ff8a00, #da1b60);
+    cursor: pointer;
+}
+
+.subNav .activeOption {
+    background-image: linear-gradient(140deg, #ff8a00, #da1b60);
+}
+
+/*TABELLA DEI MESSAGGI*/
+
+#messageTable {
+	border-collapse: collapse;
+	color: white;
+	margin: 0 auto;
+}
+
+#messageTable caption {
+    color: rgb(39, 39, 39);
+    padding: 1em;
+}
+
+#messageTable thead tr {
+    background-image: linear-gradient(140deg, #ff8a00, #da1b60);
+}
+
+#messageTable tbody tr {
+    background-color: #100e17;
+    border: 1px solid #fff;
+    transition: 0.6s;
+}
+
+#messageTable tbody tr:hover, 
+#messageTable tbody tr:focus {
+    background-color: white;
+    color: rgb(39, 39, 39);
+    cursor: pointer;
+}
+
+#messageTable thead tr th,
+#messageTable tbody tr td {
+	padding: 1em 0;
+}
+
+.width-20 {
+    width: 20%;
+}
+
+.width-50 {
+    width: 50%;
+}
+
+#request-h3,
+#message-h3,
+#statistics-h4 {
+    color: white;
+    background-image: linear-gradient(to right, #ff8a00, #da1b60);
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    margin: auto;
+    padding: 0.5em 0;
+    width: 60%;
+}
+
+#request-h3 {
+    width: 100%;
+}
+
+#message-h3 {
+    width: 100%;
+}
+
+#statistics-h4 {
+    width: 100%;
+}
+
+.showRequest,
+#statistics {
+    background-color: #100e17;
+    border-radius: 16px;
+    margin: auto;
+    max-width: 60%;
+}
+
+.showRequest {
+    border-top-right-radius: 16px;
+    border-top-left-radius: 16px;
+}
+
+#statistics {
+    max-width: 70%;
+}
+
+.showRequest p,
+#statistics p {
+    color: white;
+    margin: auto;
+    padding: 1em 2em;
+    text-align: left;
+}
+
+#statistics p {
+    padding: 0.5em 2em;
+}
+
+.showRequest a,
+.showRequest button {
+    border-radius: 16px;
+    color: white;
+    display: inline-block;
+    font-size: 1.2em;
+    margin: 1em;
+    padding: 0.5em 1em;
+}
+
+.showRequest button {
+    margin: 1em 0;
+    background-color: rgb(16, 14, 23);
+    border: none;
+}
+
+.showRequest a:hover,
+.showRequest button:hover {
+    background-image: linear-gradient(140deg, #ff8a00, #da1b60);
+    cursor: pointer;
+}

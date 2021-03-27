@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="/xsd/news.xsd">
+  <news id="3">
+    <titolo>Barra di ricerca per le segnalazioni</titolo>
+    <data>2019-05-30</data>
+    <ora>14:03</ora>
+    <corpo>&#xC8; stata creata una barra per la ricerca delle segnalazioni. In questo modo &#xE8; molto pi&#xF9; semplice e veloce cercare una segnalazione in particolare.</corpo>
+  </news>
+  <news id="2">
+    <titolo>Barra di ricerca per le News</titolo>
+    <data>2019-04-05</data>
+    <ora>21:29</ora>
+    <corpo>&#xC8; stata aggiunta una barra di ricerca delle news</corpo>
+  </news>
+  <news id="1">
+    <titolo>Lavori in corso</titolo>
+    <data>2019-03-12</data>
+    <ora>12:52</ora>
+    <corpo>Ristrutturazione del sito in corso</corpo>
+  </news>
+  <check>Elemento di escape, controlla se il documento &#xE8; vuoto</check>
+</root>
