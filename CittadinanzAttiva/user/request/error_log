@@ -1,0 +1,2 @@
+[29-Dec-2019 16:27:13 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/dirguunb/all_sites/cittadinanzattiva.city/user/request/index.php on line 113
+[29-Dec-2019 16:27:13 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/dirguunb/all_sites/cittadinanzattiva.city/user/request/index.php on line 114
